@@ -6,6 +6,11 @@ $(function () {
         } else {
             $('.totop_btn').removeClass('on')
         }
+        if (sct > 0) {
+            $('.header_wrap').addClass('on')
+        } else {
+            $('.header_wrap').removeClass('on')
+        }
     })
 
     $('.main_slide .slide_box').slick({
